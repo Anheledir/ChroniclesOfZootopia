@@ -1,0 +1,40 @@
+---
+title:  "Prologue"
+season: 1
+episode: 1
+chapter: 1
+wordcount: 2147
+audioLength: "0:12:57"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Unknown"
+        designer: "LillayFran"
+    music:
+      - title: "Stage Fright (Zootopia OST)"
+        interpret: "Michael Giacchino"
+      - title: "Disney's Zootopia - Piano Medley"
+        interpret: "ThePandaTooth"
+        youtube: "h3FxPbETXLQ"
+      - title: "Ticket to write (Zootopia OST)"
+        interpret: "Michael Giacchino"
+      - title: "Wicked Game"
+        interpret: "Stone Sour"
+      - title: "Slow dancing in a burning room"
+        interpret: "John Mayer"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381441938-chronicles-of-zootopia-1x01-prologue"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/1/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16274249"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/bB-1V5Q3_xo?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+The story begins with a summary of the evolution of Judy's and Nick's friendship during the six months of his training at the police academy. As shown in the movie itself, they are getting partners at the force afterwards and finally visiting a Gazelle concert with quite a few other colleagues. This story begins right after the end of this end-credit scene, when Nick and Judy are going with their colleagues into the _Hollow Bar_ after the concert ends - celebrating Benjamin Clawhausers birthday.

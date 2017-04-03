@@ -1,0 +1,30 @@
+---
+title:  "Schrodinger's Cheetah"
+season: 2
+episode: 8
+chapter: 18
+wordcount: 5643
+audioLength: "0:35:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Benjamin Clawhauser"
+        designer: "Silver Heartcrosser"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383263973-chronicles-of-zootopia-2x08-schrodinger%27s-cheetah"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/18/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/19891747"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jul 03, 2017!"
+quote:
+    text: "Said Schrodinger's cat with a smile: »I'll be in the box with a vial. With the poison I'll be Quantum tangled you see, Thus alive and dead both all the while.«"
+    source: "Unknown"
+---
+Coming soon...

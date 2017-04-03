@@ -1,0 +1,34 @@
+---
+title:  "Blindfolded"
+season: 2
+episode: 10
+chapter: 20
+wordcount: 1810
+audioLength: "0:11:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Fifty Shades of Prey Wallpaper"
+        designer: "stalkerd"
+      - title: "Judyy Hopps"
+        designer: "zigrock001"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383275104-chronicles-of-zootopia-2x10-blindfolded"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/20/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/20090038"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jul 24, 2017!"
+quote:
+    text: "Blindfolded, your feelings are enhanced. You see less, you see nothing, but you feel more. You feel everything."
+    source: "Chloe Thurlow"
+---
+Coming soon...

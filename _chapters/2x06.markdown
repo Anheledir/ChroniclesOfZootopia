@@ -1,0 +1,30 @@
+---
+title:  "Preparations and Diconcertments"
+season: 2
+episode: 6
+chapter: 16
+wordcount: 6281
+audioLength: "0:39:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "For you, Sweetheart"
+        designer: "ChaseFox"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383255437-chronicles-of-zootopia-2x06-preparations-and"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/16/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/17828854"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jun 12, 2017!"
+quote:
+    text: "You know you’re in love when you can’t fall asleep because reality is finally better than your dreams."
+    source: "Dr. Seuss"
+---
+Coming soon...

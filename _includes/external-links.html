@@ -1,0 +1,63 @@
+{% if page.layout == "chapter" %}
+  {% for link in page.links %}
+    {% if link contains "wattpad" %}
+        {% if link.message == "" %}
+            {% assign wattpad_url = link.url %}
+        {% else %}
+            {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
+            {% assign wattpad_url = alert %}
+        {% endif %}
+    {% endif %}
+    {% if link contains "aoe3" %}
+        {% if link.message == "" %}
+            {% assign aoe3_url = link.url %}
+        {% else %}
+            {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
+            {% assign aoe3_url = alert %}
+        {% endif %}
+    {% endif %}
+    {% if link contains "fanfiction" %}
+        {% if link.message == "" %}
+            {% assign fanfiction_url = link.url %}
+        {% else %}
+            {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
+            {% assign fanfiction_url = alert %}
+        {% endif %}
+    {% endif %}
+    {% if link contains "youtube" %}
+        {% if link.message == "" %}
+            {% assign youtube_url = link.url %}
+        {% else %}
+            {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
+            {% assign youtube_url = alert %}
+        {% endif %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+    {% assign wattpad_url = site.wattpad %}
+    {% assign fanfiction_url = site.fanfiction %}
+    {% assign aoe3_url = site.aoe3 %}
+    {% assign youtube_url = site.youtube %}
+{% endif %}
+
+<div id="social">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-12 centered">
+                <h4>Read the story, leave a review or listen to the audio drama:</h4>
+            </div>
+            <div class="col-lg-3">
+                <a href="{{ wattpad_url }}"><img src="/assets/img/wattpad.png" alt="Wattpad"> Wattpad</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="{{ fanfiction_url }}"><img src="/assets/img/fanfiction.png" alt="FanFiction.net"> FanFiction.net</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="{{ aoe3_url }}"><img src="/assets/img/ao3.png" alt="Archive of our own"> Archive of our own</a>
+            </div>
+            <div class="col-lg-3">
+                <a href="{{ youtube_url }}"><i class="fa fa-youtube"></i> Audio Drama</a>
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+</div><!--/social -->

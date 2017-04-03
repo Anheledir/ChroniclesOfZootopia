@@ -1,0 +1,31 @@
+---
+title:  "Tempus Fugit (Overture)"
+season: 2
+episode: 1
+chapter: 11
+wordcount: 3533
+audioLength: "0:19:12"
+status: recorded # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Zootopia x Tangled"
+        designer: "torakun14"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381480912-chronicles-of-zootopia-2x01-tempus-fugit-overture"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/11/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/16932631"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on May 01, 2017!"
+quote:
+    text: "You only need one man to love you. But him to love you free like a wildfire, crazy like the moon, always like tomorrow, sudden like an inhale and overcoming like the tides. Only one man and all of this."
+    source: "C. JoyBell C."
+---
+Coming soon...

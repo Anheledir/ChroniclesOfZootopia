@@ -1,0 +1,27 @@
+---
+title:  "Pride and Prejudice and Rabbits"
+season: 1
+episode: 6
+chapter: 6
+wordcount: 4624
+audioLength: "0:28:30"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Comic Series 'Confession'"
+        designer: "PEANUT.K"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381468704-chronicles-of-zootopia-1x06-pride-and-prejudice"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/6/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16606708"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/MIpP7dPbeMM?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+Coming soon...

@@ -1,0 +1,28 @@
+---
+title:  "Interlude"
+season: 1
+episode: 5
+chapter: 5
+wordcount: 3477
+audioLength: "0:22:50"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Wake up Nick"
+        designer: "LoonataniaTaushaMay"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381466666-chronicles-of-zootopia-1x05-interlude"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/5/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16562335"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/ryXRwoTEUBY?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+Coming soon...

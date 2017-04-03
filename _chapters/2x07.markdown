@@ -1,0 +1,34 @@
+---
+title:  "A puzzle, finally complete"
+season: 2
+episode: 7
+chapter: 17
+wordcount: 10401
+audioLength: "1:05:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Nick x Judy"
+        designer: "Aru"
+      - title: "Judy & Nick big day :)"
+        designer: "CarryMeow"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383259770-chronicles-of-zootopia-2x07-a-puzzle-finally"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/17/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/19808407"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jun 26, 2017!"
+quote:
+    text: "Marriage is a mosaic you build with your spouse - millions of tiny moments that create your love story."
+    source: "Jennifer Smith"
+---
+Coming soon...

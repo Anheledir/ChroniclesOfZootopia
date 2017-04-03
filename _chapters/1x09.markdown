@@ -1,0 +1,27 @@
+---
+title:  "Breakfast at Hopps'"
+season: 1
+episode: 9
+chapter: 9
+wordcount: 6459
+audioLength: "0:41:27"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Zootopia Movie"
+        designer: "The Walt Disney Company"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381475340-chronicles-of-zootopia-1x09-breakfast-at-hopps%27"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/9/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16800811"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/xvGxS29uA5g?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+Coming soon...

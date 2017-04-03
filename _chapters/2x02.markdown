@@ -1,0 +1,31 @@
+---
+title:  "Money has no smell"
+season: 2
+episode: 2
+chapter: 12
+wordcount: 6646
+audioLength: "0:41:00"
+status: recorded # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Zootopia Movie"
+        designer: "The Walt Disney Company"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/382161126-chronicles-of-zootopia-2x02-money-has-no-smell"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/12/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/17018802"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on May 08, 2017!"
+quote:
+    text: "Better to be violent if there’s violence in our hearts than to put on the cloak of non-violence to cover impotence. - I object to violence because when it appears to do good the good is only temporary; the evil it does is permanent."
+    source: "Ghandi"
+---
+Coming soon...

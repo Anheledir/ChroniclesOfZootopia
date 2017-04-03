@@ -1,0 +1,27 @@
+---
+title:  "Light at the end of the tunnel"
+season: 1
+episode: 7
+chapter: 7
+wordcount: 4466
+audioLength: "0:28:34"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Comic Series 'Confession'"
+        designer: "PEANUT.K"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381471414-chronicles-of-zootopia-1x07-light-at-the-end-of"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/7/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16694476"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/R1N-zghe_W0?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+Coming soon...

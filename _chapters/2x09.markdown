@@ -1,0 +1,34 @@
+---
+title:  "The Game is on!"
+season: 2
+episode: 9
+chapter: 19
+wordcount: 17383
+audioLength: "1:48:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "SH_zootopia"
+        designer: "vetrofroza"
+      - title: "Zootopia Art"
+        designer: "The Walt Disney Company"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383266117-chronicles-of-zootopia-2x09-the-game-is-on"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/19/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/20081056"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jul 17, 2017!"
+quote:
+    text: "Eliminate all other factors, and the one which remains must be the truth."
+    source: "Sherlock Holmes"
+---
+Coming soon...

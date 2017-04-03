@@ -1,0 +1,17 @@
+<div id="footerwrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-4">
+                <p><b>Story by:</b> {{ site.author | escape }}</p>
+            </div>
+        
+            <div class="col-lg-4">
+                <p><b>Last updated:</b> {% last_modified_at %}</p>
+            </div>
+
+            <div class="col-lg-4">
+                <p>{{ site.email }}</p>
+            </div>
+        </div>
+    </div>
+</div><!--/footerwrap -->

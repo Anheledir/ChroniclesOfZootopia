@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+
+  <title>{{ site.title | escape }} - {% if page.title %}{{ page.title | escape }}{% else %}{{ site.subtitle | escape | strip_html }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ "/assets/css/bootstrap.css" | relative_url }}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/font-awesome.min.css" | relative_url }}" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+  {% if jekyll.environment == 'production' %}
+  {% include application-insights.html %}
+  {% endif %}
+</head>

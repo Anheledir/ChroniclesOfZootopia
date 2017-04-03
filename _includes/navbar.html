@@ -1,0 +1,24 @@
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+    {% assign orderedPages = site.pages | sort: 'order', 'last' %}
+    {% for my_page in orderedPages %}
+        {% if my_page.title %}
+            <li{% if page.url == my_page.url %} class="active"{% endif %}><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+        {% endif %}
+    {% endfor %}
+        </ul>
+    </div><!--/.nav-collapse -->
+    </div>
+</div>

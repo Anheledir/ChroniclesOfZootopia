@@ -1,0 +1,32 @@
+---
+title:  "Three Families"
+season: 3
+episode: 2
+chapter: 22
+wordcount: 14915
+audioLength: "1:33:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Zootopia Movie"
+        designer: "The Walt Disney Company"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383332109-chronicles-of-zootopia-3x02-three-families"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/22/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/8764945/chapters/20445187"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published in multiple parts, starting on Apr 14, 2017!"
+quote:
+    text: "It's not important what we think, or what we do or what we believe in: each of us will die one day. Better to do as the old Yaqui Indians did: regard death as an advisor. Always ask: 'Since I'm going to die, what should I be doing now?'"
+    source: "Paulo Coelho"
+---
+Coming soon...

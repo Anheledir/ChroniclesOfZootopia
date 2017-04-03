@@ -1,0 +1,65 @@
+# bundle exec jekyll serve --force_polling
+
+title: Chronicles of Zootopia
+subtitle: A Fanfiction story by Anheledir, based on <em>The Walt Disney Movie "Zootopia"</em> from 2016.
+author: Gordon Breuer
+email: gordon@outlook.de
+description: > # this means to ignore newlines until "baseurl:"
+  Chronicles of Zootopia is a fan-made story, starting near the end of the movie
+  and introducing us to the relationship Nick and Judy are starting to begin.
+  After having a rough start it stabilized eventually in a timespan of over a
+  year, but new problems are already waiting: personally and professionally.
+  There will be old antagonists again as well as new ones - will our beloved
+  couple master these new challenges, too?
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ZootopiaChronicl.es" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: anheledir
+storySummary: "Chronicles of Zootopia is a fan-made story, starting near the end of the movie and introducing us to the relationship Nick and Judy are starting to begin. After having a rough start it stabilized eventually in a timespan of over a year, but new problems are already waiting: personally and professionally. There will be old antagonists again as well as new ones - will our beloved couple master these new challenges, too?"
+
+wattpad: "https://www.wattpad.com/story/101778648-chronicles-of-zootopia/parts"
+fanfiction: "https://www.fanfiction.net/s/12254372/1/Chronicles-of-Zootopia"
+aoe3: "http://archiveofourown.org/series/486182"
+youtube: "https://www.youtube.com/playlist?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-last-modified-at
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+collections:
+- chapters
+
+collections:
+  chapters:
+    output: true
+    permalink: /Chapter/:name:output_ext
+
+defaults:
+  - scope:
+      path: ""
+      type: chapters
+    values:
+      layout: chapter
+      season: 1
+      episode: 1
+      chapter: 1
+      wordcount: 0000
+      audioLength: 0:00:00
+      status: published # Can be: planned, published, recorded, produced
+      links:
+          - wattpad:
+            url: ""
+            message: ""
+          - fanfiction:
+            url: ""
+            message: ""
+          - aoe3:
+            url: ""
+            message: ""
+          - youtube:
+            url: ""
+            message: ""

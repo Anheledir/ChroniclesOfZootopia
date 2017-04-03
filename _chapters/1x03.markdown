@@ -1,0 +1,28 @@
+---
+title:  "Everything for a good cause"
+season: 1
+episode: 3
+chapter: 3
+wordcount: 7871
+audioLength: "0:48:13"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Judy and Nick in Training"
+        designer: "RomanRazor"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381460688-chronicles-of-zootopia-1x03-everything-for-a-good"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/3/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16454767"
+      message: ""
+    - youtube:
+      url: "https://youtu.be/JpqPDJ_EHnE?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
+      message: ""
+---
+Coming soon...

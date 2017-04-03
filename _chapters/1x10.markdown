@@ -1,0 +1,31 @@
+---
+title:  "It's a hustle"
+season: 1
+episode: 10
+chapter: 10
+wordcount: 8795
+audioLength: "0:55:05"
+status: produced # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Nick Wilde and Judy Hopps"
+        designer: "Lorelalaley"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/381477498-chronicles-of-zootopia-1x10-it%27s-a-hustle"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/10/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7168916/chapters/16873684"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published in multiple parts, starting on Apr 10, 2017!"
+quote:
+    text: "How does one collect love, rage, hatred, fear, jealousy, irrationality, or other intangibles? Clues left at a crime scene may be of inestimable value in leading to the solution of a crime; however, they are not necessarily items of physical evidence, per se."
+    source: "James T. Reese"
+---
+Coming soon...

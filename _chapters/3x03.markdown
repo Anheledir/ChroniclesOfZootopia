@@ -1,0 +1,30 @@
+---
+title:  "Aftermath"
+season: 3
+episode: 3
+chapter: 23
+wordcount: 11831
+audioLength: "1:13:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Judy having a high fever"
+        designer: "Jascarlet"
+links:
+    - wattpad:
+      url: "http://zootopiachronicl.es/chapter/3x03.html#"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/23/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/8764945/chapters/20590894"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published in multiple parts, starting on Apr 28, 2017!"
+quote:
+    text: "So much of what is best in us is bound up in our love of family, that it remains the measure of our stability because it measures our sense of loyalty."
+    source: "Haniel Long"
+---
+Coming soon...

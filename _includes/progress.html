@@ -1,0 +1,70 @@
+{% assign totalChapters = site.chapters | size %}
+{% assign published = site.chapters | where_exp: "item", "item.status != 'planned'" | sort: 'chapter' %}
+{% assign audioAvailable = "" | split: "," %}
+{% for chapter in published %}
+  {% for link in chapter.links %}
+    {% if link contains "youtube" and link.url != "" %}
+        {% assign audioAvailable = audioAvailable | push: chapter %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign proofread = published | where_exp: "item", "item.proofreading.size > 0" %}
+{% assign recorded = published | where: "status", "recorded" %}
+{% assign produced = published | where: "status", "produced" %}
+
+{% assign totalAudioAvailable = audioAvailable | size %}
+{% assign totalPublished = published | size %}
+{% assign totalProofread = proofread | size %}
+{% assign totalProduced = produced | size | plus: totalAudioAvailable %}
+{% assign totalRecorded = recorded | size | plus: totalProduced %}
+
+{% assign lastAudioAvailable = audioAvailable | last %}
+{% assign lastPublished = published | last %}
+{% assign lastRecorded = recorded | last %}
+{% assign lastProduced = produced | last %}
+
+            <h4>Written Fanfiction story</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{ 100 | divided_by: totalChapters | times: totalPublished }}" aria-valuemin="0" aria-valuemax="100" style="width: calc(100%/{{ totalChapters }} * {{ totalPublished }});">
+                    <span class="progress-type">Story: {{ lastPublished.season }}x{% if lastPublished.episode < 10 %}0{% endif %}{{ lastPublished.episode }}</span>	
+                </div>
+            </div>
+
+            <div class="progress">
+                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="{{ 100 | divided_by: totalChapters | times: totalProofread }}" aria-valuemin="0" aria-valuemax="100" style="width: calc(100%/{{ totalChapters }} * {{ totalProofread }});">
+                    <span class="progress-type">Proofread: {{ totalProofread }}/{{ totalChapters }}</span>	
+                </div>
+            </div>
+
+            <h4>Audio Drama</h4>
+            <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{ 100 | divided_by: totalChapters | times: totalRecorded }}" aria-valuemin="0" aria-valuemax="100" style="width: calc(100%/{{ totalChapters }} * {{ totalRecorded }});">
+                    <span class="progress-type">Recorded: {{ lastRecorded.season }}x{% if lastRecorded.episode < 10 %}0{% endif %}{{ lastRecorded.episode }}</span>	
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="{{ 100 | divided_by: totalChapters | times: totalProduced }}" aria-valuemin="0" aria-valuemax="100" style="width: calc(100%/{{ totalChapters }} * {{ totalProduced }});">
+                    <span class="progress-type">Post-Production: {{ lastProduced.season }}x{% if lastProduced.episode < 10 %}0{% endif %}{{ lastProduced.episode }}</span>	
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="{{ 100 | divided_by: totalChapters | times: totalAudioAvailable }}" aria-valuemin="0" aria-valuemax="100" style="width: calc(100%/{{ totalChapters }} * {{ totalAudioAvailable }});">
+                    <span class="progress-type">Published: {{ lastAudioAvailable.season }}x{% if lastAudioAvailable.episode < 10 %}0{% endif %}{{ lastAudioAvailable.episode }}</span>	
+                </div>
+            </div>
+
+            <div class="progress-meter">
+{% assign seasons = site.chapters | group_by: "season" | sort: 'season' %}
+{% assign meterClassName = "meter-text" %}
+{% for season in seasons %}
+  {% assign episodes = season.items | sort: 'episode' %}
+  {% for chapter in episodes %}
+                <div class="meter meter-left" style="width: calc(100% / {{ totalChapters }});"><span class="{{ meterClassName }}">{{ chapter.season }}x{% if chapter.episode < 10 %}0{% endif %}{{ chapter.episode }}</span></div>
+    {% if meterClassName == "meter-text" %}
+      {% assign meterClassName = "meter-text2" %}
+    {% else %}
+      {% assign meterClassName = "meter-text" %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+        </div>

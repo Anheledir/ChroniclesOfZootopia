@@ -1,0 +1,31 @@
+---
+title:  ""
+season: 3
+episode: 9
+chapter: 29
+wordcount: 0
+audioLength: "0:00:00"
+status: planned # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Mashup"
+        designer: "Anheledir"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: ""
+      message: "This chapter is not yet available on this site. Please choose another hoster!"
+    - fanfiction:
+      url: ""
+      message: "This chapter is not yet available on this site. Please choose another hoster!"
+    - aoe3:
+      url: ""
+      message: "This chapter is not yet available on this site. Please choose another hoster!"
+    - youtube:
+      url: ""
+      message: "This audio drama is not yet scheduled to be published!"
+quote:
+    text: ""
+    source: ""
+---
+Coming soon...

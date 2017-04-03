@@ -1,0 +1,41 @@
+---
+title:  "Sister Act"
+season: 3
+episode: 5
+chapter: 25
+wordcount: 22772
+audioLength: "2:22:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Judy & Nick big day :)"
+        designer: "CarryMeow"
+      - title: "Zootopia Art"
+        designer: "The Walt Disney Company"
+      - title: "One Hump Bunny"
+        designer: "adry53"
+      - title: "Greetings from Bunnyburrow"
+        designer: "Tokio92"
+      - title: "Nick and Judy cuddle"
+        designer: "Iztli"
+      - title: "Mashup"
+        designer: "Anheledir"
+proofreading: "Sean Dalglish"
+links:
+    - wattpad:
+      url: ""
+      message: "This chapter is not yet available on this site. Please choose another hoster!"
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/25/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/8764945/chapters/21530819"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published in multiple parts, starting on Sep 18, 2017!"
+quote:
+    text: "A birth-date is a reminder to celebrate the life as well as to update the life."
+    source: "Amit Kalantri"
+---
+Coming soon...

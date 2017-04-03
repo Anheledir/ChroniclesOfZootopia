@@ -1,0 +1,38 @@
+---
+title:  "Final Cut"
+season: 2
+episode: 5
+chapter: 15
+wordcount: 10245
+audioLength: "1:04:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Comic Series 'Confession'"
+        designer: "PEANUT.K"
+      - title: "Zootopia Art and Movie"
+        designer: "The Walt Disney Company"
+      - title: "It's called a hustle, Sweetheart"
+        designer: "Unknown Artist"
+      - title: "Carrot Cake"
+        designer: "ohsh"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/382196996-chronicles-of-zootopia-2x05-final-cut"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/15/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/17445313"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Jun 05, 2017!"
+quote:
+    text: "The most amazing thing for me is that every single person who sees a movie, not necessarily one of my movies, brings a whole set of unique experiences. Now, through careful manipulation and good storytelling, you can get everybody to clap at the same time, to hopefully laugh at the same time, and to be afraid at the same time."
+    source: "Steven Spielberg"
+---
+Coming soon...

@@ -1,0 +1,34 @@
+---
+title:  "Peanuts"
+season: 3
+episode: 4
+chapter: 24
+wordcount: 4523
+audioLength: "0:28:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Judy and Nick"
+        designer: "LayLoL"
+      - title: "Bubble"
+        designer: "coffeelsb"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: ""
+      message: "This chapter is not yet available on this site. Please choose another hoster!"
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/24/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/8764945/chapters/20728687"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Sep 11, 2017!"
+quote:
+    text: "In a relationship the details are everything because they remind you – just when you need to be reminded the most – why you fell in love with someone in the first place."
+    source: "Mike Gayle"
+---
+Coming soon...

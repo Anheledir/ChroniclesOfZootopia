@@ -1,0 +1,34 @@
+---
+title:  "Things will never be the same again"
+season: 3
+episode: 1
+chapter: 21
+wordcount: 11381
+audioLength: "1:11:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Fragile"
+        designer: "Unknown Artist"
+      - title: "Zootopia Movie"
+        designer: "The Walt Disney Company"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/383328923-chronicles-of-zootopia-3x01-things-will-never-be"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/21/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/8764945/chapters/20091037"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Aug 07, 2017!"
+quote:
+    text: "Vengeance is a monster of appetite, forever bloodthirsty and never filled."
+    source: "Richelle E. Goodrich"
+---
+Coming soon...

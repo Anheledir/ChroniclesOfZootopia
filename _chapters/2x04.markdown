@@ -1,0 +1,32 @@
+---
+title:  "Family"
+season: 2
+episode: 4
+chapter: 14
+wordcount: 2580
+audioLength: "0:16:00"
+status: published # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Zootopia 12"
+        designer: "Shinyfurry"
+      - title: "Mashup"
+        designer: "Anheledir"
+links:
+    - wattpad:
+      url: "https://www.wattpad.com/382172762-chronicles-of-zootopia-2x04-family"
+      message: ""
+    - fanfiction:
+      url: "https://www.fanfiction.net/s/12254372/14/Chronicles-of-Zootopia"
+      message: ""
+    - aoe3:
+      url: "http://archiveofourown.org/works/7451674/chapters/17348215"
+      message: ""
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on May 22, 2017!"
+quote:
+    text: "A family is a place where minds come in contact with one another. If these minds love one another, the home will be as beautiful as a flower garden. But, if these minds get out of harmony with one another, it is like a storm that plays havoc with the garden."
+    source: "The Buddha"
+---
+Coming soon...

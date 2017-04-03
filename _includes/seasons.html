@@ -1,0 +1,19 @@
+{% assign seasons = site.chapters | group_by: "season" %}
+{% for season in seasons %}
+  {% assign cMin = 0 %}
+  {% assign cMax = 0 %}
+  {% for chapter in season.items %}
+    {% if cMin == 0 || chapter.chapter < cMin %}
+        {% assign cMin = chapter.chapter %}
+    {% endif %}
+
+    {% if chapter.chapter > cMax %}
+        {% assign cMax = chapter.chapter %}
+    {% endif %}
+  {% endfor %}
+    <div class="col-lg-4 col-md-4 col-sm-4 gallery">
+        <h4>Season {{ season.name }}</h4>
+        <p>Chapter {{ cMin }}-{{ cMax }}</p>
+        <a href="{% link chapters.md %}#season{{ season.name }}"><img src="/assets/img/seasons/S{{ season.name }}.png" class="img-responsive"></a>
+    </div>
+{% endfor %}

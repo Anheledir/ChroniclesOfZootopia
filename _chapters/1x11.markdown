@@ -1,0 +1,30 @@
+---
+title:  "The Vixen"
+season: 1
+episode: 11
+chapter: 10
+wordcount: 4593
+audioLength: "0:28:00"
+status: recorded # Can be: planned, published, recorded, produced
+copyrights:
+    cover:
+      - title: "Unknown"
+        designer: "mr.nick.wilde"
+links:
+    - wattpad:
+      url: ""
+      message: "This chapter is currently exclusively available as an audio drama!"
+    - fanfiction:
+      url: ""
+      message: "This chapter is currently exclusively available as an audio drama!"
+    - aoe3:
+      url: ""
+      message: "This chapter is currently exclusively available as an audio drama!"
+    - youtube:
+      url: ""
+      message: "This audio drama is scheduled to be published on Apr 24, 2017!"
+quote:
+    text: "Sure, I can get a little bit jealous. The good part about jealousy is that it comes from passion. It’s also the dangerous part and it’s an ugly emotion that hurts."
+    source: "Matthew McConaughey"
+---
+Coming soon...
