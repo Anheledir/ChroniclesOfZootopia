@@ -10,6 +10,25 @@ copyrights:
     cover:
       - title: "Comic Series 'Confession'"
         designer: "PEANUT.K"
+    music:
+      - title: "Stand by you"
+        interpret: "Rachel Platten"
+      - title: "Aquarium (The carnival of the animals)"
+        interpret: "Camille Saint-Saens"
+      - title: "Could we survive"
+        interpret: "Joseph Arthur"
+      - title: "The letter siege of London (Pride & Prejudice & Zombies OST)"
+        interpret: "Fernando Velázquez"
+      - title: "The Nick of Time (Zootopia OST)"
+        interpret: "Michael Giacchino"
+      - title: "Not meant to be (Shrek 2 OST)"
+        interpret: "Harry Gregson-Williams"
+      - title: "Love Theme from Romeo & Juliet"
+        interpret: "André Rieu"
+      - title: "The Scientist"
+        interpret: "Glee Cast"
+      - title: "Take my hand"
+        interpret: "Emily Hackett & Will Anderson"
 links:
     - wattpad:
       url: "https://www.wattpad.com/381468704-chronicles-of-zootopia-1x06-pride-and-prejudice"

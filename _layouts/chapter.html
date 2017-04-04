@@ -3,12 +3,25 @@ layout: default
 ---
 <div class="container pagecontent" id="contentwrap">
   <div class="row mt mb">
+    {% if page.status == "planned" %}
+    <div class="col-lg-12">
+      <p>There is no information available yet about this chapter, sorry. :)</p>
+    </div>
+    {% else %}
     <div class="col-lg-7">
+      {% if page.quote %}
+      <blockquote>
+        <p>{{ page.quote["text"] }}</p>
+        <footer>
+          <cite>{{ page.quote["source"] }}</cite>
+        </footer>
+      </blockquote>
+      {% endif %}
       <h4 style="text-align: left;">Summary</h4>
         {{ content }}
     </div>
     <div class="col-lg-5 left margin">
-      <img src="/assets/img/chapters/{{page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }}.png" class="img-responsive" alt="Cover-Image Chapter {{ page.chapter }}: {{ page.title }}" style="margin-bottom: 20px;" />
+      <img src="/assets/img/chapters/{{page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }}a.png" class="img-responsive" alt="Cover-Image Chapter {{ page.chapter }}: {{ page.title }}" style="margin-bottom: 20px;" />
 
       <span>Words:</span> {{ page.wordcount | money_without_currency | floor }}<br>
       <span>Audio length:</span> {{ page.audioLength }}<br>
@@ -16,29 +29,36 @@ layout: default
 
       <h4 style="text-align: left;">Cover-Art:</h4>
       <ul>
+      {% assign coverAvailable = false %}
       {% for rights in page.copyrights %}
         {% if rights contains "cover" %}
+          {% assign coverAvailable = true %}
           {% for art in rights[1] %}
             <li>{{ art.title }} by {{ art.designer }}</li>
           {% endfor %}
-        {% else %}
-          <li><em>not yet available</em></li>
         {% endif %}
       {% endfor %}
+      {% if coverAvailable == false %}
+            <li><em>not yet available</em></li>
+      {% endif %}
       </ul>
 
       <h4 style="text-align: left;">Music:</h4>
       <ul>
+      {% assign musicAvailable = false %}
       {% for rights in page.copyrights %}
         {% if rights contains "music" %}
+          {% assign musicAvailable = true %}
           {% for art in rights[1] %}
             <li>{{ art.title }} by {{ art.interpret }}</li>
           {% endfor %}
-        {% else %}
-          <li><em>not yet available</em></li>
         {% endif %}
       {% endfor %}
+      {% if musicAvailable == false %}
+            <li><em>not yet available</em></li>
+      {% endif %}
       </ul>
     </div>
+    {% endif %}
   </div><!--/row -->
 </div><!--/container -->

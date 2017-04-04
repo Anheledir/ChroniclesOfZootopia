@@ -10,6 +10,21 @@ copyrights:
     cover:
       - title: "Wake up Nick"
         designer: "LoonataniaTaushaMay"
+    music:
+      - title: "Moonlight"
+        interpret: "The Piano Guys"
+      - title: "Heathens"
+        interpret: "Simply Three"
+      - title: "Take me to church"
+        interpret: "Simply Three"
+      - title: "Teardrop"
+        interpret: "Massive Attack"
+      - title: "Illabye"
+        interpret: "Tipper"
+      - title: "You don't have to worry"
+        interpret: "Windy Wagner"
+      - title: "This night"
+        interpret: "Black Lab"
 proofreading: "Sean Dalglish"
 links:
     - wattpad:

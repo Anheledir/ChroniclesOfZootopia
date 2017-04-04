@@ -10,6 +10,19 @@ copyrights:
     cover:
       - title: "Unknown"
         designer: "Unknown Artist"
+    music:
+      - title: "Ticket to write (Zootopia OST)"
+        interpret: "Michael Giacchino"
+      - title: "Zootopia Piano Improvisation"
+        interpret: "Markarian"
+      - title: "Try Everything by Shakira - Piano Cover"
+        interpret: "AniPiano"
+      - title: "Zootopia Piano Suite / Medley"
+        interpret: "PianoPrinceOfAnime"
+      - title: "Three-Toe Bandito (Zootopia OST)"
+        interpret: "Michael Giacchino"
+      - title: "The Nick of Time (Zootopia OST)"
+        interpret: "Michael Giacchino"
 proofreading: "Sean Dalglish"
 links:
     - wattpad:
