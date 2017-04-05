@@ -25,6 +25,7 @@ youtube: "https://www.youtube.com/playlist?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWe
 markdown: kramdown
 gems:
   - jekyll-last-modified-at
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
