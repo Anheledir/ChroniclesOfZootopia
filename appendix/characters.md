@@ -30,12 +30,12 @@ Officer Pawlstake | _Atlas Lion_ | |
 
  **Litter No. (age)** | **Name** |
 |-
-01 (27 years) | Jana [^3]
+01 (_27 years_) | Jana [^3]
  | John [^3]
  | Joshua [^3]
  | Jane [^3]
 |-
-02 (26 years) | Judith Laverne [^1][^3]
+02 (_26 years_) | Judith Laverne [^1] [^3]
  | Ralph [^3]
  | Clara
  | Flowers
