@@ -28,17 +28,17 @@ Officer Pawlstake | _Atlas Lion_ | |
 
 ## Known Hopps Children
 
- **Litter No.** | **Name** | **Age** |
+ **Litter No. (age)** | **Name** |
 |-
-01 | Jana [^3] | 27
- | John [^3] | 27
- | Joshua [^3] | 27
- | Jane [^3] | 27
+01 (27 years) | Jana [^3]
+ | John [^3]
+ | Joshua [^3]
+ | Jane [^3]
 |-
-02 | Judith Laverne [^1][^3] | 26
- | Ralph [^3] | 26
- | Clara | 26
- | Flowers | 26
+02 (26 years) | Judith Laverne [^1][^3]
+ | Ralph [^3]
+ | Clara
+ | Flowers
 |-
 
 ---
