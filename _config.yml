@@ -29,8 +29,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - LICENSE
+
 collections:
 - chapters
 
