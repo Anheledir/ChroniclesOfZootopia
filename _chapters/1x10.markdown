@@ -5,7 +5,7 @@ episode: 10
 chapter: 10
 wordcount: 8795
 audioLength: "0:55:05"
-status: produced # Can be: planned, published, recorded, produced
+status: published # Can be: planned, published, recorded, produced
 copyrights:
     cover:
       - title: "Nick Wilde and Judy Hopps"
