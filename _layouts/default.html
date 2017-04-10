@@ -6,8 +6,27 @@
     {% include headerwrap.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/dcf213df5b.js"></script>
     {{ content }}
     {% include external-links.html %}
     {% include footerwrap.html %}
+
+    <script type="text/javascript">
+      $(document).ready(function(){       
+        var scroll_start = 0;
+        var startchange = $('#startchange');
+        var offset = startchange.offset();
+          if (startchange.length){
+        $(document).scroll(function() { 
+            scroll_start = $(this).scrollTop();
+            if(scroll_start > offset.top) {
+                $(".navbar-default").css('background-color', '#f0f0f0');
+            } else {
+                $('.navbar-default').css('background-color', 'transparent');
+            }
+        });
+          }
+      });
+    </script>
   </body>
 </html>

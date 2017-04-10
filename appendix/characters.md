@@ -7,45 +7,100 @@ order: -1
 # Appendix: Characters
 ## ZPD Colleagues
 
-**Name** | **Species** | **Role** |
-|-
-Detective Fangmeyer [^1] | _Bengal Tiger_ | Investigation Team-Leader [^2] |
-Detective Marki | _Timber Wolf_ | Department Head of the Behavior Analyses Unit |
-Chief Bogo [^1] | _Cape Buffalo_ | Chief of the ZPD |
-Officer McHorn [^1] | _Rhinoceros_ | |
-Officer Clawhauser [^1] | _Cheetah_ | Receptionist, Assistent to the Chief, Dispatcher |
-Officer Francine [^1] | _Elephant Cow_ | |
-Officer Selah Reed | _Bengal Tiger_ | |
-Officer Wolford [^1] | _Timber Wolf_ | |
-Officer Delgato [^1] | _African Lion_ | |
-Officer Higgins [^1] | _Hippopotamus_ | |
-Officer Grizzoli [^1] | _Polar Bear_ | |
-Officer Snarlof [^1] | _Polar Bear_ | |
-Detective Bradley | _Jaguar_ | Forensic Lab employee |
-Officer Pawlstake | _Atlas Lion_ | |
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign police = site.data.charactersZPD | sort: "name" %}
+        {% for zpd in police %}
+<tr>
+    <td>{{ zpd.rank }}</td>
+    <td><nobr>{{ zpd.name }}</nobr></td>
+    <td><nobr><em>{{ zpd.species }}</em></nobr></td>
+    <td>{{ zpd.role }}</td>
+</tr>
+        {% endfor %}
+    </tbody>
+</table>
 
----
 
 ## Known Hopps Children
+Only those litters and children are listed that are mentioned in the story.
 
- **Litter No. (age)** | **Name** |
-|-
-01 (_27 years_) | Jana [^3]
- | John [^3]
- | Joshua [^3]
- | Jane [^3]
-|-
-02 (_26 years_) | Judith Laverne [^1] [^3]
- | Ralph [^3]
- | Clara
- | Flowers
-|-
+{% assign children = site.data.charactersHopps | sort: "litter" %}
+{% assign prevLitter = 0 %}
+{% for kid in children %}
+    {% if prevLitter != kid.litter %}
+        {% if prevLitter != 0 %}
+    </ul>
+</div>
+        {% endif %}
+<div class="col-lg-3 col-md-3 col-sm-3 gallery">
+    {% capture litterKey %}L{{kid.litter}}{% endcapture %}
+    <strong>Litter #{{ kid.litter }} ({{ site.data.hoppsLitters[litterKey].age }} years):</strong>
+    <ul>
+    {% endif %}
+<li>{{ kid.name }}{% if kid.hasFamily %} <sup>1</sup>{% endif %}</li>
+    {% if prevLitter != kid.litter %}
+        {% assign prevLitter = kid.litter %}
+    {% endif %}
+{% endfor %}
+    </ul>
+</div>
+<div class="clearfix"></div>
 
----
+## Other residents of Bunnyburrow
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign bunnyburrow = site.data.charactersBunnyburrow | sort: "name" %}
+        {% for citizen in bunnyburrow %}
+<tr>
+    <td><nobr>{{ citizen.name }}</nobr></td>
+    <td><nobr><em>{{ citizen.species }}</em></nobr></td>
+    <td>{{ citizen.role }}</td>
+</tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+## Other minor characters
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign minorChars = site.data.charactersMinor | sort: "name" %}
+        {% for other in minorChars %}
+<tr>
+    <td><nobr>{{ other.name }}</nobr></td>
+    <td><nobr><em>{{ other.species }}</em></nobr></td>
+    <td>{{ other.role }}</td>
+</tr>
+        {% endfor %}
+    </tbody>
+</table>
+
 
 ## Footnotes
 
-[^1]: Official character from the movie, just listed as a reference.
-[^2]: Role is different from the movie.
-[^3]: Has a family on his/her own, not living at home anymore.
-[^4]: Character is based off an official character that had no name in the movie.
+1: Has a family on his/her own, not living at home anymore.

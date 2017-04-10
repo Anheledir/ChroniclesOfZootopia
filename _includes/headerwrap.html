@@ -1,6 +1,7 @@
 <div id="headerwrap"{% if page.layout == "chapter" %} style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/img/chapters/{{page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }}.png)"{% endif %}>
     <div class="container">
         <div class="row centered">
+            <div id="startchange"></div>
 {% if page.layout == "home" %}
             <img alt="Logo {{ site.title | escape }}" src="/assets/img/logo.png" class="img-responsive center-block" />
             <h1 class="hidden">{{ site.title | zootopia_font }}</h1>
