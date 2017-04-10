@@ -58,6 +58,9 @@
 - name: Lisa
   litter: 16
   hasFamily: false
+- name: Carsten
+  litter: 16
+  hasFamily: true
 - name: Laura
   litter: 27
   hasFamily: false

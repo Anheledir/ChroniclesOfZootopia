@@ -1,6 +1,21 @@
-- term: zooicide
+- term: Zooicide
   description: "A 'homicide' is a human killing another human, but as there are no humans in Zootopia, and the prefix 'zoo-' is for animals, an animal killing another animal is called a 'zooicide' within this story. Not to be confused by a suicide, someone killing him- or herself."
   isBrand: false
 - term: Zuber
   description: "'Zuber' is a transportation network company. It develops, markets and operates the Zuber car transportation and food delivery mobile apps. The drivers use their own cars for transportation."
+  isBrand: true
+- term: Starpaws
+  description: "Starpaws is a coffee company and coffeehouse chain with it's headquarters in Zootopia."
+  isBrand: true
+- term: Toothless croc!
+  description: A light cussword, mainly used by predators.
+  isBrand: false
+- term: Sweet cheese and crackers!
+  description: A light cussword
+  isBrand: false
+- term: Predsuck
+  description: "A predsuck is a disparaging and racist foul name for a predator who lives among prey as a freeloader, utilizing them for food, work and all other kind of animal needs. It's one of the most violent insults for predators and arose a few hundred years ago. Today it is nearly unused."
+  isBrand: false
+- term: ZNN
+  description: "The Zootopia News Network is a basic cable and satellite television news channel owned by the Turtle Broadcasting System division of Tribe Warner. It was founded as a 24-hour cable news channel. Upon its launch, ZNN was the first television channel to provide 24-hour news coverage and was the first all-news television channel in Zootopia."
   isBrand: true
