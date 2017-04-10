@@ -321,8 +321,8 @@ dl {
 	columns: 1;
 }
 
-@media (min-width: 950px) {
-	dl {
+@media (min-width: 850px) {
+	dl.mc {
 		columns: 2;
 	}
 }
