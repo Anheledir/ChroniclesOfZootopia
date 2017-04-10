@@ -17,7 +17,7 @@ order: -1
         </tr>
     </thead>
     <tbody>
-        {% assign police = site.data.charactersZPD | sort: "name" %}
+        {% assign police = site.data.charactersZPD | sort: "rank" %}
         {% for zpd in police %}
 <tr>
     <td>{{ zpd.rank }}</td>

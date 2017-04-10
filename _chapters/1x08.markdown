@@ -58,3 +58,11 @@ links:
       message: ""
 ---
 Coming soon...
+
+## Teaser
+
+{% youtube nxBBAyKqEJc?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko %}
+
+## Trivia
+- The chapter was published as an audio drama with an additional pause of one week because of it's length. Still, we didn't want to split the story into multiple parts and created a short teaser instead.
+- Everytime Judy is visiting the crime scene or a suspect, another song of a CSI show is playing in the background.

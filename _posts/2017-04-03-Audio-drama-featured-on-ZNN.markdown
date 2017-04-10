@@ -8,7 +8,7 @@ I was obliviously browsing through a few of my daily links, when I stumbled accr
 
 As Andy Lagopos stated:
 
-     Sean's accent is just the best.
+    Sean's accent is just the best.
 
 And:
 
@@ -16,8 +16,7 @@ And:
 
 I can only repeat on this, Sean is really doing some great work and it's really fun to listen to him bringing my story to live!
 
-<div class="centered"><iframe width="560" height="315" src="https://www.youtube.com/embed/nxBBAyKqEJc?showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-
+{% youtube nxBBAyKqEJc?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko %}
 
 If you don't already have, just follow the YouTube link at the bottom of this page and listen to the newest published chapter. And while you still have to wait for the new chapter 26 of the written story, there will be a little never-before-published [Bonus Chapter][1x11] to the first season in just a few weeks. :-)
 
