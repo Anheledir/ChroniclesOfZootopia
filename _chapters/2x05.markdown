@@ -5,7 +5,7 @@ episode: 5
 chapter: 15
 wordcount: 10245
 audioLength: "1:04:00"
-status: published # Can be: planned, published, recorded, produced
+status: recorded # Can be: planned, published, recorded, produced
 copyrights:
     cover:
       - title: "Comic Series 'Confession'"
@@ -18,6 +18,7 @@ copyrights:
         designer: "ohsh"
       - title: "Mashup"
         designer: "Anheledir"
+proofreading: "Sean Dalglish"
 links:
     - wattpad:
       url: "https://www.wattpad.com/382196996-chronicles-of-zootopia-2x05-final-cut"
