@@ -23,4 +23,4 @@ If you don't already have, just follow the YouTube link at the bottom of this pa
 
 [znn]: http://www.zootopianewsnetwork.com/
 [znnAudioDrama]: http://www.zootopianewsnetwork.com/2017/03/audiobook-chronicles-of-zootopia-read.html
-[1x11]: {% link _chapters/1x11.markdown %}
+[1x11]: {% link _chapters/1x11.md %}

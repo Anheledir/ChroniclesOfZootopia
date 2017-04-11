@@ -1,6 +1,9 @@
 - name: Hopps, Melanie
   species: Rabbit
   role: Wife of Ralph Hopps
+- name: Hopps, Michael
+  species: Rabbit
+  role: Justice of the Peace in Bunnyburrow
 - name: Tailor, Frank
   species: Wolf
   role: Owner of a bakery

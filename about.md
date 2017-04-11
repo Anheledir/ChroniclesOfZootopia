@@ -26,5 +26,5 @@ Until I started with Sean on the Audio Drama, I had no art work at all for the s
 The only thing that makes me a little bit sad is, that there is no really unique artwork for my story. There were a few people messaging me if they are allowed to make some, but I never saw any result. I really would love to see just a few scenes, interpreted by someone and made into a drawing. An own short comic would be like x-mas, eastern and birthday together, but a nice drawing based on the story would be really something stunning. But things can always change, maybe my story will inspire some talented illustrator someday enough to create a small piece of art. If so: Please make sure to show me! I will switch the current cover arts anytime with a specialized picture, or just show it on this website here for everyone to see! :)
 
 [aoe3]: {{ site.aoe3 }}
-[1x10]: {% link _chapters/1x10.markdown %}
-[1x05]: {% link _chapters/1x05.markdown %}
+[1x10]: {% link _chapters/1x10.md %}
+[1x05]: {% link _chapters/1x05.md %}
