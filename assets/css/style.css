@@ -345,3 +345,35 @@ dd {
 	margin-bottom: 15px;
 	break-before: avoid;
 }
+
+.mc ul {
+	break-before: avoid;
+}
+
+@media (min-width: 500px) {
+	div.mc {
+		columns: 2;
+	}
+}
+
+@media (min-width: 800px) {
+	div.mc {
+		columns: 3;
+	}
+}
+
+@media (min-width: 1100px) {
+	div.mc {
+		columns: 4;
+	}
+}
+
+sub {
+	bottom: auto;
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: -4px;
+	vertical-align: top;
+	padding-left: 2px;
+	font-style: italic;
+}

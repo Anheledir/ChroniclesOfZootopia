@@ -5,12 +5,14 @@
   litter: 1
   hasFamily: true
 - name: Joshua
+  nickname: Josh
   litter: 1
   hasFamily: true
 - name: Jane
   litter: 1
   hasFamily: true
 - name: Judith Laverne
+  nickname: Judy, Juju, Ju, Carrots, Cottontail
   litter: 2
   hasFamily: true
 - name: Ralph
@@ -29,6 +31,7 @@
   litter: 3
   hasFamily: false
 - name: Evelin Katherine
+  nickname: Evelin, Eve
   litter: 3
   hasFamily: true
 - name: Sam

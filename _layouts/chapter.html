@@ -43,6 +43,15 @@ layout: default
       {% endif %}
       </ul>
 
+      {% if page.voiceGuests %}
+      <h4 style="text-align: left;">Voice Guests:</h4>
+      <ul>
+        {% for guest in page.voiceGuests %}
+        <li>{{ guest.name }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
       <h4 style="text-align: left;">Music:</h4>
       <ul>
       {% assign musicAvailable = false %}

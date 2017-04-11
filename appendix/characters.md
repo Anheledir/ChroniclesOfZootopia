@@ -35,25 +35,49 @@ Only those litters and children are listed that are mentioned in the story.
 
 {% assign children = site.data.charactersHopps | sort: "litter" %}
 {% assign prevLitter = 0 %}
+<div class="mc">
 {% for kid in children %}
     {% if prevLitter != kid.litter %}
         {% if prevLitter != 0 %}
     </ul>
-</div>
         {% endif %}
-<div class="col-lg-3 col-md-3 col-sm-3 gallery">
     {% capture litterKey %}L{{kid.litter}}{% endcapture %}
     <strong>Litter #{{ kid.litter }} ({{ site.data.hoppsLitters[litterKey].age }} years):</strong>
     <ul>
     {% endif %}
-<li>{{ kid.name }}{% if kid.hasFamily %} <sup>1</sup>{% endif %}</li>
+<li>{{ kid.name }}{% if kid.hasFamily %} <sup>1</sup>{% endif %}{% if kid.nickname %}<br><sub>also: {{ kid.nickname }}</sub>{% endif %}</li>
     {% if prevLitter != kid.litter %}
         {% assign prevLitter = kid.litter %}
     {% endif %}
 {% endfor %}
     </ul>
 </div>
-<div class="clearfix"></div>
+
+## Other members of the Hopps Family
+Relatives and characters related by marriage.
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% assign hoppses = site.data.charactersOtherHopps | sort: "name" %}
+        {% for char in hoppses %}
+<tr>
+    <td><nobr>{{ char.name }}</nobr>{% if char.nickname %}<br><sub>also: {{ char.nickname }}</sub>{% endif %}</td>
+    <td><nobr><em>{{ char.species }}</em></nobr></td>
+    <td>{{ char.role }}</td>
+</tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+
+
 
 ## Other residents of Bunnyburrow
 
