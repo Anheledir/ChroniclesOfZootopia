@@ -8,12 +8,12 @@
             {% assign wattpad_url = alert %}
         {% endif %}
     {% endif %}
-    {% if link contains "aoe3" %}
+    {% if link contains "ao3" %}
         {% if link.message == "" %}
-            {% assign aoe3_url = link.url %}
+            {% assign ao3_url = link.url %}
         {% else %}
             {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
-            {% assign aoe3_url = alert %}
+            {% assign ao3_url = alert %}
         {% endif %}
     {% endif %}
     {% if link contains "fanfiction" %}
@@ -36,7 +36,7 @@
 {% else %}
     {% assign wattpad_url = site.wattpad %}
     {% assign fanfiction_url = site.fanfiction %}
-    {% assign aoe3_url = site.aoe3 %}
+    {% assign ao3_url = site.ao3 %}
     {% assign youtube_url = site.youtube %}
 {% endif %}
 
@@ -53,7 +53,7 @@
                 <a href="{{ fanfiction_url }}"><img src="/assets/img/fanfiction.png" alt="FanFiction.net"> FanFiction.net</a>
             </div>
             <div class="col-lg-3">
-                <a href="{{ aoe3_url }}"><img src="/assets/img/ao3.png" alt="Archive of our own"> Archive of our own</a>
+                <a href="{{ ao3_url }}"><img src="/assets/img/ao3.png" alt="Archive of our own"> Archive of our own</a>
             </div>
             <div class="col-lg-3">
                 <a href="{{ youtube_url }}"><i class="fa fa-youtube"></i> Audio Drama</a>

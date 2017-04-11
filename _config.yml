@@ -18,7 +18,7 @@ storySummary: "Chronicles of Zootopia is a fan-made story, starting near the end
 
 wattpad: "https://www.wattpad.com/story/101778648-chronicles-of-zootopia/parts"
 fanfiction: "https://www.fanfiction.net/s/12254372/1/Chronicles-of-Zootopia"
-aoe3: "http://archiveofourown.org/series/486182"
+ao3: "http://archiveofourown.org/series/486182"
 youtube: "https://www.youtube.com/playlist?list=PLIVs1D93vz38riF4nqo5uTmGpoU1yWeko"
 
 # Build settings
@@ -57,7 +57,7 @@ defaults:
           - fanfiction:
             url: ""
             message: ""
-          - aoe3:
+          - ao3:
             url: ""
             message: ""
           - youtube:
