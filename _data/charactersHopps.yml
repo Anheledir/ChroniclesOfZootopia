@@ -113,3 +113,6 @@
 - name: Cotton
   litter: 42
   hasFamily: false
+- name: Violet
+  litter: 48
+  hasFamily: false
