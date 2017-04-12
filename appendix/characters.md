@@ -1,10 +1,12 @@
 ---
 layout: page
-title: "Characters"
+title: "Persona"
 permalink: /appendix/characters/
 order: -1
 ---
-# Appendix: Characters
+# Appendix: Persona
+There are a lot of characters in Chronicles of Zootopia: Officials from the Movie, some with slightly different roles or names (if there is no name at all or at least some part of it unknown within the movie for a character). But there are also a lot of new supporting characters. This is a list of them all with their species and roles in the story.
+
 ## ZPD Colleagues
 
 <table>
