@@ -1,3 +1,9 @@
+- name: Summers
+  litter: 48
+  hasFamily: false
+- name: Illy
+  litter: 47
+  hasFamily: false
 - name: Jana
   litter: 1
   hasFamily: true
