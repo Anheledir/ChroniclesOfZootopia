@@ -31,10 +31,11 @@
   litter: 3
   hasFamily: false
 - name: Evelin Katherine
-  nickname: Evelin, Eve
+  nickname: Eve
   litter: 3
   hasFamily: true
 - name: Sam
+  nickname: Sammy
   litter: 5
   hasFamily: false
 - name: Jenny
