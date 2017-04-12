@@ -59,7 +59,7 @@ layout: default
         {% if rights contains "music" %}
           {% assign musicAvailable = true %}
           {% for art in rights[1] %}
-            <li>{{ art.title }} by {{ art.interpret }}</li>
+            <li>{% if art.url %}<a href="{{ art.url }}" target="_blank"><i class="fa fa-play" aria-hidden="true"></i></a>&nbsp;{% endif %}{{ art.title }} by {{ art.interpret }}</li>
           {% endfor %}
         {% endif %}
       {% endfor %}
