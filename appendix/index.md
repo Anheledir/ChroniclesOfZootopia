@@ -12,9 +12,9 @@ There are a lot of characters in Chronicles of Zootopia: Officials from the Movi
 
 
 # Locations
-The locations in Chronicles of Zootopia are mainly based on the movie with a few additions to it.
+The locations in Chronicles of Zootopia are based on the movie, but there are also new additions to it for this story.
 
-<a class="btn btn-primary" href="javascript:alert('Not ready yet, coming soon.');"><i class="fa fa-map" aria-hidden="true"></i> Open List</a>
+<a class="btn btn-primary" href="{% link appendix/locations.md %}"><i class="fa fa-map" aria-hidden="true"></i> Open List</a>
 
 
 

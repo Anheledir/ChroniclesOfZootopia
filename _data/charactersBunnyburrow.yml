@@ -19,9 +19,12 @@
 - name: Croach, Dora
   species: Sheep
   role: Receptionist at the police station
-- name: Croach, Emily
+- name: Croach, Emily-Sharla
   species: Sheep
-  role: "Dora’s daughter, Technical assistant at the ZASA, the astronaut-sheep in Judy’s school-play"
+  role: "Dora’s daughter, Technical assistant at the ZASA, participated in the Carrot Days Festival play about the evolution of animals alongside Judy, talking about being an astronaut"
+- name: Croach, Gareth
+  species: Sheep
+  role: "He is Emily-Sharla's little brother, was one of the three children being bullied by Gideon Grey and Travis after the Carrot Days Festival play"
 - name: Greenwood, Wilson
   species: Rabbit
   role: "Family doctor of the Hopps’, working in hospital"
