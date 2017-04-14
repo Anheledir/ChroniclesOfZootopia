@@ -7,10 +7,8 @@
   <title>{{ site.title | escape }} - {% if page.title %}{{ page.title | escape }}{% else %}{{ site.subtitle | escape | strip_html }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
-  <!-- Bootstrap core CSS -->
   <link href="{{ "/assets/css/bootstrap.css" | relative_url }}" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
+  <link href="{{ "/assets/css/timeline.css" | relative_url }}" rel="stylesheet">
   <link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
   
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,6 +18,6 @@
   <![endif]-->
   
   {% if jekyll.environment == 'production' %}
-  {% include application-insights.html %}
+    {% include application-insights.html %}
   {% endif %}
 </head>
