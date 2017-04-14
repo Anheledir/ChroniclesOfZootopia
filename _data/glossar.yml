@@ -22,9 +22,12 @@
 - term: Preyfighting
   description: "A blood sport between two preys fighting in a ring until one of the opponents is knocked unconscious, often inflicting significant physical trauma on each other. It's illegal in most countries but there are underground fight clubs. The history of organized preyfights goes back a few hundred years when predators were keeping prey as some sort of slaves (see also: Predsuck)."
   isBrand: false
-- term: Red Paws
-  description: A professional baseball team from Zootopia
+- term: Zootopia Red Paws
+  description: A professional baseball team.
   isBrand: true
 - term: Stripeless Zebra
   description: A shout of astonishment.
   isBrand: false
+- term: Deerbrooke Eagles
+  description: A professional baseball team.
+  isBrand: true
