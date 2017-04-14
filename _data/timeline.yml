@@ -1,0 +1,9 @@
+- event: "" # timeline-event
+  eventType: default # can be: default, primary, info, warning, danger
+  faIcon: fa-circle # can be any FontAwesome icon, ignored when pointType = blank
+  pointType: blank # can be: blank, default, primary, info, warning, danger
+  label: "" # timeline-label, same names are grouped
+  labelOrder: 0 # negative numbers are pre-movie, positive numbers post-movie, 0 is the movie itself
+  labelType: default # can be: default, primary, info, warning, danger
+  description: "" # content of the event
+  chapters: 1x01,1x02 # comma separated list of chapter IDs (if any)
