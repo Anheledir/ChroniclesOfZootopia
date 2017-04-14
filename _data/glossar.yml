@@ -31,3 +31,6 @@
 - term: Deerbrooke Eagles
   description: A professional baseball team.
   isBrand: true
+- term: Colorblind Chameleon
+  description: A shout of astonishment.
+  isBrand: false
