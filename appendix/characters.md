@@ -23,7 +23,7 @@ There are a lot of characters in Chronicles of Zootopia: Officials from the Movi
         {% for zpd in police %}
 <tr>
     <td>{{ zpd.rank }}</td>
-    <td><nobr>{{ zpd.name }}</nobr></td>
+    <td><nobr>{{ zpd.name }}</nobr>{% if zpd.nickname %}<br><sub>also: {{ zpd.nickname }}</sub>{% endif %}</td>
     <td><nobr><em>{{ zpd.species }}</em></nobr></td>
     <td>{{ zpd.role }}</td>
 </tr>
@@ -95,7 +95,7 @@ Relatives and characters related by marriage.
         {% assign bunnyburrow = site.data.charactersBunnyburrow | sort: "name" %}
         {% for citizen in bunnyburrow %}
 <tr>
-    <td><nobr>{{ citizen.name }}</nobr></td>
+    <td><nobr>{{ citizen.name }}</nobr>{% if citizen.nickname %}<br><sub>also: {{ citizen.nickname }}</sub>{% endif %}</td>
     <td><nobr><em>{{ citizen.species }}</em></nobr></td>
     <td>{{ citizen.role }}</td>
 </tr>
@@ -118,7 +118,7 @@ Relatives and characters related by marriage.
         {% assign minorChars = site.data.charactersMinor | sort: "name" %}
         {% for other in minorChars %}
 <tr>
-    <td><nobr>{{ other.name }}</nobr></td>
+    <td><nobr>{{ other.name }}</nobr>{% if other.nickname %}<br><sub>also: {{ other.nickname }}</sub>{% endif %}</td>
     <td><nobr><em>{{ other.species }}</em></nobr></td>
     <td>{{ other.role }}</td>
 </tr>
