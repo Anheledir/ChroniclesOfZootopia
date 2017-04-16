@@ -34,6 +34,9 @@
 - term: Colorblind Chameleon!
   description: A shout of astonishment.
   isBrand: false
-- term: Forgot-me-not Kidnapper
-  description: "Kidnaps female prey and leave behind a ransom letter together with a vase with a single forgot-me-not flower. If not paid within 24 hours the victims never re-emerge."
+- term: Forget-me-not Kidnapper
+  description: "Kidnaps female prey and leave behind a ransom letter with a poem and a vase with a single forget-me-not flower. If not 250.000 Zollars are paid within 24 hours the victims never re-emerge."
+  isBrand: false
+- term: Zollar
+  description: "Currency in the United States of Animalia, featuring a deer on the bills, currency sign is a 'Z' with two vertical lines."
   isBrand: false
