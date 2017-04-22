@@ -1,4 +1,4 @@
-<div id="headerwrap"{% if page.layout == "chapter" %} style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/img/chapters/{{page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }}.png)"{% endif %}>
+<div id="headerwrap"{% if page.layout == "chapter" and page.status != "planned" %} style="background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/assets/img/chapters/{{page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }}.png)"{% endif %}>
     <div class="container">
         <div class="row centered">
             <div id="startchange"></div>
@@ -9,9 +9,9 @@
 {% else %}
             <h4>{{ site.title | escape }}</h4>
             <h1>{{ page.title | zootopia_font }}</h1>
-{% if page.layout == "chapter" %}
+    {% if page.layout == "chapter" %}
             <h4>Chapter {{ page.chapter }}, {{ page.season }}x{% if page.episode < 10 %}0{% endif %}{{ page.episode }} </h4>
-{% endif %}
+    {% endif %}
 {% endif %}
         </div><!--/row -->
     </div> <!-- /container -->
