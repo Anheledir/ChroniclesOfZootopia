@@ -157,6 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 }
 
+#contentwrap img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 #contentwrap h2 {
 	margin-top: 40px;
 }
