@@ -35,7 +35,7 @@
   description: A shout of astonishment.
   isBrand: false
 - term: Forget-me-not Kidnapper
-  description: "Kidnaps female prey and leave behind a ransom letter with a poem and a vase with a single forget-me-not flower. If not 250.000 Zollars are paid within 24 hours the victims never re-emerge."
+  description: "Kidnaps female prey and leave behind a ransom letter with a poem and a vase with a single forget-me-not flower. If not 250.000 Zollars are paid within 12 hours the victims never re-emerge."
   isBrand: false
 - term: Zollar
   description: "Currency in the United States of Animalia, featuring a deer on the bills, currency sign is a 'Z' with two vertical lines."
