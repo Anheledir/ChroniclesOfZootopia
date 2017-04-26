@@ -40,3 +40,9 @@
 - term: Zollar
   description: "Currency in the United States of Animalia, featuring a deer on the bills, currency sign is a 'Z' with two vertical lines."
   isBrand: false
+- term: Trinity
+  description: "A surveillance software that sorts through all available digital information. For example the footage of the security cameras all over Zootopia, police reports and usage of public transport. It supports the ZPD and other authorities with a heuristic search, including face recognition and machine learning algorithms to process the big amounts of data."
+  isBrand: false
+- term: Samaritan
+  description: "A software allowing the ZPD and other authorities to observe banking accounts and even mocking transactions for a short period of time, e.g. to simulate money transfers."
+  isBrand: false

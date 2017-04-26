@@ -34,6 +34,8 @@
   description: "Send coroner"
 - code: "10-55A"
   description: "Send forensics team"
+- code: "10-57"
+  description: "Missing person"
 - code: "10-77"
   description: "Estimated Time of Arrival"
 
