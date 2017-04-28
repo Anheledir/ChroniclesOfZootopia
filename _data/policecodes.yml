@@ -8,6 +8,8 @@
   description: "Off duty, at home"
 - code: "10-15"
   description: "Prisoner in custody"
+- code: "10-36"
+  description: "Confidential information"
 - code: "10-42"
   description: "Check the welfare of/at:"
 - code: "10-43"
@@ -45,6 +47,8 @@
   description: "Ambulance needed"
 - code: "11-42"
   description: "No ambulance needed"
+- code: "11-58"
+  description: "Radio monitored, use phone"
 - code: "11-99"
   description: "Officer needs help!"
 
