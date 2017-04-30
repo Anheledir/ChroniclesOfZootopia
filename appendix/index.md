@@ -28,7 +28,7 @@ The ZPD uses similiar radio codes as the police in the USA. There are a few diff
 # Glossary
 Not every word or idiom from our world is appropriate in the antropomorphic world of Zootopia. Most business names are furthermore based on real brands, but slightly changed for the movie and this story. This is a glossary with those terms to help you better understand the story of Chronicles of Zootopia.
 
-<a class="btn btn-primary" href="{% link appendix/glossar.md %}"><i class="fa fa-book" aria-hidden="true"></i> Open List</a>
+<a class="btn btn-primary" href="{% link appendix/glossary.md %}"><i class="fa fa-book" aria-hidden="true"></i> Open List</a>
 
 
 

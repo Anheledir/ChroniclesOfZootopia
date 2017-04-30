@@ -28,7 +28,8 @@ order: 10
     {% if plannedChapters.size > 0 %}
 
 <div class="col-lg-4 col-md-4 col-sm-4 gallery centered">
-    <p><br><br><br><br><b>{{ plannedChapters.size }} more chapters planned!</b></p>
+    <img src="/assets/img/inProgress.png" class="img-responsive">
+    <p><b>{{ plannedChapters.size }} more chapters planned!</b></p>
 </div>
 
     {% endif %}
