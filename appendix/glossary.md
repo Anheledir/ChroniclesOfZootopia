@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Glossar"
+title: "Glossary"
 permalink: /appendix/glossary/
 order: -1
 ---
