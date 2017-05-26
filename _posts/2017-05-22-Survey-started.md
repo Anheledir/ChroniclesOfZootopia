@@ -14,7 +14,5 @@ You're ready? Then [let's start][Survey], and thank you again for your help! :)
 <a class="btn btn-primary" href="https://eSurv.org?u=ZootopiaChronicles"><i class="fa fa-check-square-o" aria-hidden="true"></i> Start the Survey!</a>
 </center>
 
+
 [Survey]: https://eSurv.org?u=ZootopiaChronicles
-
-
-{% youtube j-XhWZGSeq8 %}
