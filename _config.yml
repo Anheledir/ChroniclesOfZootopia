@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   There will be old antagonists again as well as new ones - will our beloved
   couple master these new challenges, too?
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ZootopiaChronicl.es" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://ZootopiaChronicl.es"
 twitter_username: anheledir
 storySummary: "Chronicles of Zootopia is a fan-made story, starting near the end of the movie and introducing us to the relationship Nick and Judy are starting to begin. After having a rough start it stabilized eventually in a timespan of over a year, but new problems are already waiting: personally and professionally. There will be old antagonists again as well as new ones - will our beloved couple master these new challenges, too?"
 
