@@ -52,19 +52,3 @@
                     <span class="progress-type">Published: {{ lastAudioAvailable.season }}x{% if lastAudioAvailable.episode < 10 %}0{% endif %}{{ lastAudioAvailable.episode }}</span>	
                 </div>
             </div>
-
-            <div class="progress-meter">
-{% assign seasons = site.chapters | group_by: "season" | sort: 'season' %}
-{% assign meterClassName = "meter-text" %}
-{% for season in seasons %}
-  {% assign episodes = season.items | sort: 'episode' %}
-  {% for chapter in episodes %}
-                <div class="meter meter-left" style="width: calc(100% / {{ totalChapters }});"><span class="{{ meterClassName }}">{{ chapter.season }}x{% if chapter.episode < 10 %}0{% endif %}{{ chapter.episode }}</span></div>
-    {% if meterClassName == "meter-text" %}
-      {% assign meterClassName = "meter-text2" %}
-    {% else %}
-      {% assign meterClassName = "meter-text" %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-        </div>
