@@ -8,6 +8,14 @@
             {% assign wattpad_url = alert %}
         {% endif %}
     {% endif %}
+    {% if link contains "deviantart" %}
+        {% if link.message == "" %}
+            {% assign deviantart_url = link.url %}
+        {% else %}
+            {% capture alert %}javascript:alert('{{ link.message }}');{% endcapture %}
+            {% assign deviantart_url = alert %}
+        {% endif %}
+    {% endif %}
     {% if link contains "ao3" %}
         {% if link.message == "" %}
             {% assign ao3_url = link.url %}
@@ -34,6 +42,7 @@
     {% endif %}
   {% endfor %}
 {% else %}
+    {% assign deviantart_url = site.deviantart %}
     {% assign wattpad_url = site.wattpad %}
     {% assign fanfiction_url = site.fanfiction %}
     {% assign ao3_url = site.ao3 %}
@@ -49,10 +58,13 @@
             <div class="col-lg-3">
                 <a href="{{ ao3_url }}" target="_blank"><img src="/assets/img/ao3.png" alt="Archive of our own"> Archive of our own</a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <a href="{{ fanfiction_url }}" target="_blank"><img src="/assets/img/fanfiction.png" alt="FanFiction.net"> FanFiction.net</a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
+                <a href="{{ deviantart_url }}" target="_blank"><i class="fa fa-deviantart"></i> DeviantArt</a>
+            </div>
+            <div class="col-lg-2">
                 <a href="{{ wattpad_url }}" target="_blank"><img src="/assets/img/wattpad.png" alt="Wattpad"> Wattpad</a>
             </div>
             <div class="col-lg-3">
