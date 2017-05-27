@@ -37,7 +37,7 @@ collections:
 collections:
   chapters:
     output: true
-    permalink: /chapter/:name:output_ext
+    permalink: /chapter/:name:/
 
 defaults:
   - scope:
