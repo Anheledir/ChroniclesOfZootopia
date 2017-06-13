@@ -1,12 +1,26 @@
 <div id="footerwrap">
     <div class="container">
+{% assign published = site.chapters | where_exp: "item", "item.status != 'planned'" | sort: 'chapter' %}
+{% assign audioAvailable = "" | split: "," %}
+{% for chapter in published %}
+  {% for link in chapter.links %}
+    {% if link contains "youtube" and link.url != "" %}
+        {% assign audioAvailable = audioAvailable | push: chapter %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% assign lastAudioAvailable = audioAvailable | last %}
+{% assign lastPublished = published | last %}
+
         <div class="row centered">
             <div class="col-lg-4">
                 <p><b>Story by:</b> {{ site.author | escape }}</p>
             </div>
         
             <div class="col-lg-4">
-                <p><b>Last updated:</b> {% last_modified_at %}</p>
+                <p><b>Latest chapter:</b> {{ lastPublished.season }}x{% if lastPublished.episode < 10 %}0{% endif %}{{ lastPublished.episode }}<br>
+                <b>Latest audio episode:</b> {{ lastAudioAvailable.season }}x{% if lastAudioAvailable.episode < 10 %}0{% endif %}{{ lastAudioAvailable.episode }}</p>
             </div>
 
             <div class="col-lg-4">
